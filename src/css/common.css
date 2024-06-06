@@ -17,6 +17,19 @@ img {
   max-width: 100%;
 }
 
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-start, .btn-stop {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .timer {
   display: flex;
   gap: 20px;
@@ -31,4 +44,25 @@ img {
 
 .label {
   font-size: 14px;
+
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+input {
+  padding: 4px 2px;
+}
+
+button {
+  padding: 4px;
 }
