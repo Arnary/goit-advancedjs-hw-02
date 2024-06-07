@@ -41,4 +41,5 @@ function handlerSubmit(event) {
       });
     });
   };
+  form.reset();
 };
